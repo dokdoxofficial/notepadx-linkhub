@@ -1,7 +1,19 @@
 import streamlit as st
+import pandas as pd
 
-st.title = "NotepadX LinkHub"
+
+st.set_page_config(
+    page_title="NotepadX LinkHub",
+    page_icon="🔗",
+)
+
+st.title("🔗 NotepadX LinkHub")
+st.info("새로운 소식 또는 정보가 이 사이트를 통해 자동으로 업데이트 될 예정입니다!")
 
 st.link_button("📝NotepadX 메모장", "https://notepadx.netlify.app")
-st.link_button("📁 엑셀 정리", "https://...")
-st.link_button("🎥 유튜브 다운", "https://...")
+st.link_button("🛡️개인정보 보호약관", "https://notepadxprivacy.netlify.app")
+
+
+#그래프
+
+st.video("https://www.youtube.com/watch?v=9voN0gkdlS4&list=RD9voN0gkdlS4&start_radio=1")
