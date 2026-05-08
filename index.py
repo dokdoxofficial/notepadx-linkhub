@@ -25,8 +25,8 @@ st.video("https://www.youtube.com/watch?v=9voN0gkdlS4&list=RD9voN0gkdlS4&start_r
 #그래프
 st.subheader("최근 2-3일 전 방문자수")
 df = pd.DataFrame({
-    "이름": ["그저께","어제","오늘"],
-    "y": [3,2,0]
+    "날찌": ["그저께","어제","오늘"],
+    "y": [3,2,4]
 })
 
 # 그래프 출력
